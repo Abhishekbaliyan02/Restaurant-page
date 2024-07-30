@@ -1,1 +1,2 @@
-#This is a restaurant page.
+#A restaurant website built with HTML and CSS. Utilizing clean and structured HTML for content and intuitive navigation, combined with CSS for stylish and responsive design, the site effectively showcases your menu, ambiance, and special offerings. Key features include eye-catching images of your dishes, detailed menus, location and contact information, and reservation options, all optimized for both desktop and mobile devices. This elegant and functional website not only attracts potential customers but also enhances their online experience, making them eager to visit your restaurant.
+
