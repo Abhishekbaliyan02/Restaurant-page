@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 1499px;
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+nav img{
+    margin-left: 150px;
+    margin-top: -10px;
+}
+nav span{
+    float: right;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.frontimage{
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+.right-items{
+    width: 600px;
+    height: 270px;
+    background-color: white;
+    margin-top: -398px;
+    margin-left: 699px;
+    padding: 20px;
+}
+.right-items span{
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    margin-left: 20px;
+}
+.right-items h1{
+    font-size: 70px;
+    padding: 20px;
+    font-weight: 500;
+}
+.right-items p{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.right-items button{
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: rgb(97, 201, 93);
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.right-items button:hover{
+    background-color: rgb(65, 175, 79);
+}
+.facility{
+    width: 1499px;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 150px;
+    padding: 30px 0px;
+}
+article{
+    width: 376px;
+    height: 100px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+article img{
+    float: left;
+    padding: 10px;
+    width: 60px;
+}
+article h2{
+    font-weight: 600;
+    padding:5px;
+}
+article p{
+    font-size: 17px;
+    padding:5px;
+}
+article:hover{
+    box-shadow: 1px 1px 1px 1px;
+}
+.line{
+    width: 1313px;
+    height: 3px;
+    background-color: wheat;
+    margin-left: 102px;
+    margin-top: -249px;
+}
+
+.menu{
+    width: 1000px;
+    height: 500px;
+    margin:30px auto;
+}
+.heading{
+    font-size: 20px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    margin-left: 470px;
+}
+.menu h1{
+    margin-left: 380px;
+    padding: 50px;
+    font-size: 25px;
+}
+.images{
+    display: grid;
+    grid-template-areas: 'mg1 mg1 mg2 mg3'
+    'mg1 mg1 mg2 mg7'
+    'mg4 mg5 mg6 mg7';
+    grid-gap: 5px;
+    margin-left: -80px;
+}
+.img1{
+    border-radius: 10px;
+    grid-area: mg1;
+    transition: transform 0.8s;
+}
+.img1:hover{
+    transform: scale(1.1);
+    
+}
+.img2{
+    grid-area: mg2;
+    border-radius: 10px;
+    transition: transform 0.8s;
+}
+.img2:hover{
+    transform: scale(1.1);
+    
+}
+.img3{
+    grid-area: mg3;
+    border-radius: 10px;
+    transition: transform 0.8s;
+}
+.img3:hover{
+    transform: scale(1.1);
+    
+}
+.img4{
+    border-radius: 10px;
+    grid-area: mg4;
+    transition: transform 0.8s;
+}
+.img4:hover{
+    transform: scale(1.1);
+    
+}
+.img5{
+    border-radius: 10px;
+    grid-area: mg5;
+    transition: transform 0.8s;
+}
+.img5:hover{
+    
+    transform: scale(1.1);
+}
+.img6{
+    border-radius: 10px;
+    grid-area: mg6;
+    transition: transform 0.8s;
+}
+.img6:hover{
+    
+    transform: scale(1.1);
+}
+.img7{
+    grid-area: mg7;
+    border-radius: 10px;
+    transition: transform 0.8s;
+}
+.img7:hover{
+    
+    transform: scale(1.1);
+}
+
+footer{
+    width: 1519px;
+    height:170px;
+    background-color: rgb(238, 236, 186);
+    margin-top: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+}
+
+footer img{
+    width: 152px;
+    height: 98px;
+}
+footer h1{
+    color: rgb(53, 52, 52);
+}
+footer ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+form h1{
+    padding: 5px 0px;
+}
+form input[type=text]{
+    padding: 3px;
+}
+form div{
+    padding: 7px 0px;
+}
+span{
+    font-size: 25px;
+    padding: 3px;
+}
+
